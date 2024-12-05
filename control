@@ -1,0 +1,6 @@
+Package: ImageSegregator
+Version: 0.1
+Architecture: all
+Maintainer: Marcin Filipiak
+Section: graphics
+Description: Image segregator
