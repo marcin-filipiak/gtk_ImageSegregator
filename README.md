@@ -1,4 +1,4 @@
-# ImageSegregator: Segregate Images with Ease
+# ImageSegregator: Segregate Images
 
 This program, written in C++ with GTK+, is a tool for organizing images into folders based on predefined categories. It displays images from a folder and allows users to sort them into target directories by clicking dynamically created buttons or using keyboard shortcuts.
 
