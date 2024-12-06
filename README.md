@@ -49,19 +49,24 @@ sudo apt update
 sudo apt install libgtk-3-dev nlohmann-json3-dev
 ```
 
-### 2. Compile the Program
+### 2. Compile the Program or install
 Compile using `g++` and script from this repo:
 ```bash
 ./GCompileAndPack.sh
 ```
 
+Install deb:
+```bash
+sudo dpkg -i ImageSegregator.deb
+```
+
 ### 3. Prepare the JSON Configuration
 Place the `imageSegregator.json` file in the folder containing the images to be organized. Ensure the paths in the JSON file exist, or the program will create them automatically.
 
-### 4. Run the Program
+### 4. Run installed 
 Execute the program:
 ```bash
-./image_segregator
+ImageSegregator
 ```
 
 ### 5. Select Folder
@@ -83,6 +88,7 @@ The **Caps Lock label** updates every 500ms to indicate whether Caps Lock is ena
 - **Keyboard Shortcuts**: Case-sensitive, so ensure Caps Lock is in the desired state.
 - **Error Handling**: Errors like missing files or failed moves will show a dialog box.
 
+---
 
 ## Links
 
